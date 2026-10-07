@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Shein Product Reviewer Program</title>
+<style>
+  :root {
+    --bg: #ffffff;
+    --text: #1a1a1a;
+    --muted: #666666;
+    --card: #f7f7f8;
+    --accent: #111111;
+    --cta: #e11d48;
+    --cta-hover: #be123c;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html { -webkit-text-size-adjust: 100%; text-size-adjust: 100%; }
+  img, svg { max-width: 100%; height: auto; }
+  body {
+    overflow-wrap: break-word;
+    padding-left: env(safe-area-inset-left, 0px);
+    padding-right: env(safe-area-inset-right, 0px);
+    padding-bottom: env(safe-area-inset-bottom, 0px);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.6;
+  }
+  .wrap { max-width: 720px; margin: 0 auto; padding: 0 20px; }
+
+  header { text-align: center; padding: 64px 0 40px; }
+  .tag {
+    display: inline-block;
+    background: var(--card);
+    color: var(--muted);
+    font-size: 13px;
+    padding: 6px 14px;
+    border-radius: 999px;
+    margin-bottom: 20px;
+  }
+  h1 { font-size: clamp(30px, 6vw, 46px); line-height: 1.15; margin-bottom: 16px; }
+  .sub { font-size: 18px; color: var(--muted); max-width: 540px; margin: 0 auto 28px; }
+
+  .btn {
+    display: inline-block;
+    background: var(--cta);
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 18px;
+    padding: 16px 36px;
+    border-radius: 12px;
+    min-height: 52px;
+    text-align: center;
+    -webkit-tap-highlight-color: transparent;
+    touch-action: manipulation;
+    transition: background .15s, transform .15s;
+  }
+  .btn:active { background: var(--cta-hover); transform: scale(.98); }
+  @media (hover: hover) {
+    .btn:hover { background: var(--cta-hover); transform: translateY(-1px); }
+  }
+  .btn:focus-visible { outline: 3px solid #111; outline-offset: 3px; }
+  .small { font-size: 13px; color: var(--muted); margin-top: 12px; }
+
+  section { padding: 40px 0; }
+  h2 { font-size: 26px; margin-bottom: 20px; text-align: center; }
+
+  .grid { display: grid; gap: 16px; grid-template-columns: repeat(auto-fit, minmax(min(200px, 100%), 1fr)); }
+  .card { background: var(--card); border-radius: 14px; padding: 22px; }
+  .card .num {
+    width: 34px; height: 34px; border-radius: 50%;
+    background: var(--accent); color: #fff;
+    display: flex; align-items: center; justify-content: center;
+    font-weight: 700; margin-bottom: 12px;
+  }
+  .card h3 { font-size: 17px; margin-bottom: 6px; }
+  .card p { font-size: 15px; color: var(--muted); }
+
+  ul.list { list-style: none; max-width: 480px; margin: 0 auto; }
+  ul.list li { padding: 10px 0 10px 30px; position: relative; border-bottom: 1px solid #eee; }
+  ul.list li::before { content: "✓"; position: absolute; left: 0; color: var(--cta); font-weight: 700; }
+
+  .final { text-align: center; background: var(--card); border-radius: 18px; padding: 40px 20px; margin-bottom: 40px; }
+  .final p { color: var(--muted); margin-bottom: 22px; }
+
+  footer { text-align: center; font-size: 12px; color: var(--muted); padding: 0 0 40px; }
+  footer p { max-width: 560px; margin: 0 auto 6px; }
+
+  /* Phones */
+  @media (max-width: 600px) {
+    header { padding: 40px 0 24px; }
+    .sub { font-size: 16px; }
+    section { padding: 28px 0; }
+    h2 { font-size: 22px; }
+    .btn { display: block; width: 100%; padding: 16px 20px; }
+    .final { padding: 28px 16px; border-radius: 14px; }
+  }
+
+  /* Large screens */
+  @media (min-width: 1024px) {
+    .wrap { max-width: 800px; }
+    header { padding: 88px 0 56px; }
+    .sub { font-size: 20px; }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .btn { transition: none; }
+  }
+</style>
+</head>
+<body>
+
+<header class="wrap">
+  <span class="tag">Product Reviewer Program</span>
+  <h1>Get Paid to Review Shein Products</h1>
+  <p class="sub">Try out fashion and lifestyle items, share your honest opinion, and see what the reviewer program has to offer.</p>
+  <a class="btn" href="https://giftclick.org/aff_c?offer_id=1226&aff_id=122650&source=sheinreviewer" target="_blank" rel="noopener sponsored">Check If You Qualify</a>
+  <p class="small">Takes about a minute. Availability may vary by region.</p>
+</header>
+
+<section class="wrap">
+  <h2>How it works</h2>
+  <div class="grid">
+    <div class="card">
+      <div class="num">1</div>
+      <h3>Sign up</h3>
+      <p>Tap the button and fill out a quick form to see if you're eligible.</p>
+    </div>
+    <div class="card">
+      <div class="num">2</div>
+      <h3>Pick products</h3>
+      <p>Choose items that fit your style and what you'd actually wear or use.</p>
+    </div>
+    <div class="card">
+      <div class="num">3</div>
+      <h3>Share your review</h3>
+      <p>Post your honest thoughts and photos. No script, just your real take.</p>
+    </div>
+  </div>
+</section>
+
+<section class="wrap">
+  <h2>Who it's for</h2>
+  <ul class="list">
+    <li>Anyone who likes fashion, beauty, or home finds</li>
+    <li>People comfortable writing a few honest sentences</li>
+    <li>Anyone who can take a decent photo with a phone</li>
+    <li>No experience needed</li>
+  </ul>
+</section>
+
+<section class="wrap">
+  <div class="final">
+    <h2>Ready to give it a try?</h2>
+    <p>Spots and rewards depend on the program's current terms, so check the details on the next page.</p>
+    <a class="btn" href="https://giftclick.org/aff_c?offer_id=1226&aff_id=122650&source=sheinreviewer" target="_blank" rel="noopener sponsored">Get Started</a>
+  </div>
+</section>
+
+<footer class="wrap">
+  <p>This page contains an affiliate link. We may earn a commission if you sign up, at no extra cost to you.</p>
+  <p>We are not affiliated with, endorsed by, or sponsored by Shein. All trademarks belong to their respective owners.</p>
+</footer>
+
+</body>
+</html>
